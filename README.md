@@ -8,18 +8,24 @@
     <style>
  
     #button {
-        width:100px;
-        height:50px;
+        width:200px;
+        height:100px;
         position:absolute;
         top:100px;
         left:100px;
+        background: linear-gradient(-90deg, blue, green);
     }
  
+ 
+    #button:hover {
+        background: linear-gradient(-90deg, green, blue);
+    }
+    
     </style>
 </head>
 <body>
  
-    <button id="button">Click Me!</button>
+   <button id="button">Click Me!</button>
  
 <script>
     var button = document.getElementById("button");
