@@ -27,8 +27,19 @@
 </head>
 <body>
  
-   <button id="button">Click Me!</button>
+   <button id="button" onclick="myFunction()">Click Me!</button>
  
+ 
+<script>
+
+function myFunction() {
+    alert("Wow you actually got me..");
+}
+
+</script>
+
+
+
 <script>
     var button = document.getElementById("button");
     var browserWidth = window.innerWidth || document.documentElement.clientWidth;
