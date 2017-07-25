@@ -33,7 +33,7 @@
 <script>
 
 function myFunction() {
-    alert("Wow you actually got me..");
+    alert("Wow you actually got me..Good job!");
 }
 
 </script>
