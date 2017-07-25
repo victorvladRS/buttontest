@@ -14,6 +14,8 @@
         top:100px;
         left:100px;
         background: linear-gradient(-90deg, blue, green);
+        color: red;
+        border: solid 2px black;
     }
  
  
