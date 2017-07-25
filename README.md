@@ -27,7 +27,7 @@
 </head>
 <body>
  
-   <button id="button" onclick="myFunction()">Click Me!</button>
+   <button id="button" onclick="myFunction()">Click me if you can!</button>
  
  
 <script>
